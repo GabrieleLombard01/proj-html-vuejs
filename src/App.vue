@@ -17,6 +17,7 @@ export default {
       <header>
         <appHeader />
       </header>
+
     </div>
 
     <!-- DEMOSELECT-CONTAINER: -->
@@ -24,6 +25,4 @@ export default {
   </div>
 </template>
 
-<style lang="scss">
-@use './assets/scss/style.scss'
-</style>
+<style lang="scss">@use './assets/scss/style.scss'</style>

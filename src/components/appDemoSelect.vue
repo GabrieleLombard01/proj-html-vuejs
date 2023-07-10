@@ -43,9 +43,10 @@ export default {
 
 /* BUTTON */
 .demoSelect_container {
-    position: absolute;
-    top: 20%;
+    position: fixed;
+    top: 30%;
     right: 0;
+
 }
 </style>
   
