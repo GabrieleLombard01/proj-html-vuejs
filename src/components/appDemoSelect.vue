@@ -15,8 +15,11 @@ export default {
 
 <template>
     <div class="right_container" :class="{ 'right_container_after_click': isClicked }">ciao</div>
-    <button @click="handleClick">vai</button>
+    <div class="demoSelect_container" :style="{ 'margin-right': isClicked ? '20%' : '0' }">
+        <button @click="handleClick">vai</button>
+    </div>
 </template>
+
 
 <style scoped>
 .right_container {
@@ -32,6 +35,14 @@ export default {
 
 .right_container_after_click {
     display: block;
+
+}
+
+/* BUTTON */
+.demoSelect_container {
+    position: absolute;
+    top: 20%;
+    right: 0;
 }
 </style>
   
