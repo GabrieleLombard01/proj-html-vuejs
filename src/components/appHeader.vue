@@ -14,7 +14,6 @@ export default {
             ],
         };
     },
-
 };
 </script>
 
@@ -23,9 +22,11 @@ export default {
         <div class="col-4">
             <img class="w-50" src="../assets/img/dark-logo.png" alt="logo">
         </div>
-        <div class="col-4">
+        <div class="col-8">
             <ul>
-                <li><a href="#">{{ }}</a></li>
+                <li v-for="(item, index) in HeaderNav[0]" :key="index">
+                    <a href="#">{{ item }}</a>
+                </li>
             </ul>
         </div>
     </div>
