@@ -38,10 +38,14 @@ a{
     color: #111111;
 }
 main{
-    position: relative;
-    left: 9.9px;
+    padding-left: 17px;
 }
-
+h1{
+    font-size: 48px;
+}
+h3{
+    font-size: 20px;
+}
 /*Utilties*/
 .margin_contents{
     width: 1400px;
@@ -49,17 +53,16 @@ main{
     border: dashed black 1px;
 }
 /*Layout*/
-.layout_container{
-    height: 100vh;
-    border: dashed red 1px;
-    
+.container-fluid{
+    overflow-y: scroll;
+    padding: 0%;
 }
 .left_container{
     width: 100%;
     height: calc(100vh - 58px);
     position: relative;
     margin-top: 56px;
-    overflow-y: scroll;
+    
 }
 
 
