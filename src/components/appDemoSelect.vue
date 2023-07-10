@@ -27,7 +27,7 @@ export default {
 <style scoped>
 .right_container {
     width: 20%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: beige;
     position: absolute;
     right: 0;

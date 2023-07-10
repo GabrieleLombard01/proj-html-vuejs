@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <div class="margin_contents d-flex justify-content-between align-items-center ps-3">
+    <div class="margin_contents d-flex justify-content-between align-items-center">
         <div class="col-3">
             <img class="w-50" src="../assets/img/dark-logo.png" alt="logo">
         </div>
