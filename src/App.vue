@@ -1,8 +1,9 @@
 <script >
 import demoSelect from './components/appDemoSelect.vue';
+import appHeader from './components/appHeader.vue';
 
 export default {
-  components: { demoSelect },
+  components: { demoSelect, appHeader },
 };
 </script>
 
@@ -14,19 +15,7 @@ export default {
 
       <!-- header: -->
       <header>
-        <div class="margin_contents d-flex justify-content-between align-items-center ps-3 pe-3">
-          <div class="col-4">
-            <img src="../src/assets/img/dark-logo.png" alt="logo">
-          </div>
-          <div class="col-4">
-            <ul>
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
-            </ul>
-          </div>
-        </div>
+        <appHeader />
       </header>
     </div>
 
