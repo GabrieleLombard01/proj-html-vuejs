@@ -1,10 +1,15 @@
-<script setup>
+<script >
+import demoSelect from './components/appDemoSelect.vue';
+
+export default {
+  components: { demoSelect },
+};
 </script>
 
 <template>
   <div class="layout_container">
-    <div class="left_container">ciao</div>
-    <div class="right_container">ciao</div>
+    <div class="left_container"></div>
+    <demoSelect />
   </div>
 </template>
 
