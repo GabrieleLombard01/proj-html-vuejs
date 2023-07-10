@@ -20,13 +20,19 @@ export default {
             <i class="fa-solid fa-ruler-combined fa-lg"></i>
         </button>
         <button class="d-block p-2">
-            <i class="fa-regular fa-futbol fa-lg"></i>
+            <a href="https://thememove.ticksy.com/">
+                <i class="fa-regular fa-futbol fa-lg"></i>
+            </a>
         </button>
         <button class="d-block p-2">
-            <i class="fa-solid fa-book fa-lg"></i>
+            <a href="https://document.thememove.com/maxcoach/">
+                <i class="fa-solid fa-book fa-lg"></i>
+            </a>
         </button>
         <button class="d-block p-2">
-            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+            <a href="https://themeforest.net/item/maxcoach-online-courses-education-wp-theme/26051639">
+                <i class="fa-solid fa-cart-shopping fa-lg"></i>
+            </a>
         </button>
     </div>
 </template>
@@ -57,6 +63,7 @@ export default {
     padding: 5px;
     box-shadow: 0.5px 1px 1px 1px rgb(184, 184, 184);
     background-color: white;
+    border-radius: 5%;
 }
 
 .demoSelect_container button {
@@ -67,7 +74,7 @@ export default {
 }
 
 /* Pseudo-classes: */
-.demoSelect_container button:hover {
+.demoSelect_container button:active {
     background-color: rgb(224, 224, 224);
     border-radius: 10%;
 }

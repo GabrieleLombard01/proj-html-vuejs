@@ -20,12 +20,25 @@ export default {
                 <li v-for="(item, index) in headerNav" :key="index">
                     <a class="c_purple" href="#"><strong>{{ item }}</strong></a>
                 </li>
+                <button id="cart_shopping"><i class="fa-solid fa-cart-shopping"></i></button>
                 <li>
                     <i class="fa-regular fa-circle-user fa-lg me-1"></i>
-                    <input type="search">
-                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input class="ps-3" type="search" placeholder="Search...">
+                    <button><i class="ps-2 fa-solid fa-magnifying-glass"></i></button>
                 </li>
             </ul>
         </div>
     </div>
 </template>
+
+<style scoped>
+ul button {
+    border: none;
+    background-color: white;
+}
+
+#cart_shopping {
+    position: relative;
+    right: 15px;
+}
+</style>
