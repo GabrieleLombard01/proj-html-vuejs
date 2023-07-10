@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 .right_container {
-    width: 30%;
+    width: 20%;
     height: 500px;
     background-color: beige;
     position: absolute;
