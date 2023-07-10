@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-    <div class="right_container" :class="{ 'right_container_after_click': isClicked }">ciao</div>
+    <div class="right_container" :class="{ 'right_container_after_click': isClicked }"></div>
     <div class="demoSelect_container" :style="{ 'margin-right': isClicked ? '20%' : '0' }">
         <button class="bg-success d-block p-2 pe-3" @click="handleClick">vai</button>
         <button class="d-block p-2">link</button>
