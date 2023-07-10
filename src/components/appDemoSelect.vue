@@ -15,8 +15,8 @@ export default {
 </script>
 
 <template>
-    <div class="right_container"></div>
-    <button>vai</button>
+    <div class="right_container" :class="{ 'right_container_after_click': isClicked }">ciao</div>
+    <button @click="handleClick">vai</button>
 </template>
 
 <style scoped>
