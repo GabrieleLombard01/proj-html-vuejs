@@ -2,7 +2,10 @@
 </script>
 
 <template>
-  <h1>PROVA font</h1>
+  <div class="layout_container">
+    <div class="left_container">ciao</div>
+    <div class="right_container">ciao</div>
+  </div>
 </template>
 
 <style lang="scss">

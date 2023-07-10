@@ -1,5 +1,42 @@
 @use './vars' as *;
-
-body{
-	font-family: $main-font;
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/*Custom properties*/
+
+/*Pseudo-classes*/
+
+/*Generics*/
+body{
+    font-family: $main-font;
+}
+
+/*Utilties*/
+
+/*Layout*/
+.layout_container{
+    height: 100%;
+    border: dashed red 1px;
+    
+}
+.left_container{
+    width: 100%;
+    height: 500px;
+    background-color: azure;
+    position: relative;
+}
+.right_container{
+    width: 30%;
+    height: 500px;
+    background-color: beige;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
