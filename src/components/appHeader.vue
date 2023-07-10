@@ -1,19 +1,12 @@
 <script>
+import { store } from '../data/store.js';
+
 export default {
-    data() {
-        return {
-            HeaderNav: [
-                {
-                    "home": "Home 🡣",
-                    "pages": "Pages 🡣",
-                    "courses": "Courses 🡣",
-                    "features": "Features 🡣",
-                    "blog": "Blog 🡣",
-                    "shop": "Shop 🡣",
-                }
-            ],
-        };
-    },
+    computed: {
+        headerNav() {
+            return store.HeaderNav[0];
+        }
+    }
 };
 </script>
 
@@ -24,7 +17,7 @@ export default {
         </div>
         <div class="col-8">
             <ul>
-                <li v-for="(item, index) in HeaderNav[0]" :key="index">
+                <li v-for="(item, index) in headerNav" :key="index">
                     <a href="#">{{ item }}</a>
                 </li>
             </ul>
