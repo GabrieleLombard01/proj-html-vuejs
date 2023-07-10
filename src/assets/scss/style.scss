@@ -14,9 +14,15 @@
 body{
     font-family: $main-font;
 }
-
+header{
+    background-color: white;
+}
 /*Utilties*/
-
+.margin_contents{
+    width: 1200px;
+    margin: 0 auto;
+    border: dashed black 1px;
+}
 /*Layout*/
 .layout_container{
     height: 100%;
