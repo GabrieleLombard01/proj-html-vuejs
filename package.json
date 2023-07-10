@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/dm-serif-text": "^5.0.5",
+    "@fontsource/rocknroll-one": "^5.0.5",
     "bootstrap": "^5.3.0",
     "vue": "^3.3.4"
   },
