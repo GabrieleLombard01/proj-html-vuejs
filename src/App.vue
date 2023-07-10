@@ -1,10 +1,10 @@
 <script >
 import demoSelect from './components/appDemoSelect.vue';
 import appHeader from './components/appHeader.vue';
-import cardSection from './components/appCardSect.vue';
+import jumbo from './components/jumbo.vue';
 
 export default {
-  components: { demoSelect, appHeader, cardSection },
+  components: { demoSelect, appHeader, jumbo },
 };
 </script>
 
@@ -21,7 +21,10 @@ export default {
 
       <!-- main-content: -->
       <main class="margin_contents bg-light">
-        <cardSection />
+
+        <!-- JUMBO: -->
+        <jumbo />
+
       </main>
 
 
