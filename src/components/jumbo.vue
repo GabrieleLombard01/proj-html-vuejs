@@ -12,12 +12,14 @@ export default {
 
 <template>
     <div class="jumbo">
-        <div class="margin_contents d-flex align-items-center justify-content-between">
+        <div class=" margin_contents d-flex align-items-center justify-content-between">
             <!-- TEXT -->
             <div class="text_jumbo_container w-50">
                 <div class="text_jumbo">
                     <h1>{{ JumboContent.title }}</h1>
                     <h3 class="pt-4">{{ JumboContent.descr }}</h3>
+                    <!-- BTN -->
+                    <button class="mt-4 main_btn">{{ JumboContent.btn }}</button>
                 </div>
             </div>
             <!-- IMG -->

@@ -20,12 +20,12 @@ export default {
       </header>
 
       <!-- main-content: -->
-      <main>
+      <main class="ps-3">
 
         <!-- JUMBO: -->
         <jumbo />
 
-        <p class="margin_contents">
+        <p class="margin_contents ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, repellat commodi ratione eius quasi quia
           inventore adipisci dicta corporis ut ipsam fugit vel totam earum ipsum veritatis facilis rem nemo.
           Aperiam natus nulla ad quae, reiciendis fugit veniam ut laborum ipsum reprehenderit atque, ipsam aspernatur.

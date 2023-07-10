@@ -13,6 +13,9 @@
 .c_green{color:#20ad96;}
 
 /*Pseudo-classes*/
+.main_btn:hover{
+    background-color: #3f3a64;
+}
 
 /*Generics*/
 body{
@@ -37,9 +40,7 @@ a{
     text-decoration: none;
     color: #111111;
 }
-main{
-    padding-left: 17px;
-}
+
 h1{
     font-size: 48px;
 }
@@ -63,6 +64,14 @@ h3{
     position: relative;
     margin-top: 56px;
     
+}
+/*Buttons*/
+.main_btn{
+    background-color: #20ad96;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-style: none;
+    border-radius: 10px;
 }
 
 
