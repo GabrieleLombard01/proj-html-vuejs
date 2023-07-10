@@ -1,3 +1,5 @@
+import { compileTemplate } from "vue/compiler-sfc";
+
 export const store = {
     HeaderNav: [
       {
@@ -17,3 +19,4 @@ export const store = {
       }
     ]
   };
+

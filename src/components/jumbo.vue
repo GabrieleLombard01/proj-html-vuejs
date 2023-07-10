@@ -2,24 +2,34 @@
 import { store } from '../data/store.js';
 
 export default {
-
+    computed: {
+        JumboContent() {
+            return store.JumboContent[0];
+        }
+    }
 };
 </script>
 
 <template>
     <div class="jumbo">
-        <!--TEXT:-->
+        <!-- TEXT -->
         <div class="text_jumbo_container w-50">
             <div class="text_jumbo">
-                <h1></h1>
-                <p></p>
+                <h1>{{ JumboContent.title }}</h1>
+                <p>{{ JumboContent.descr }}</p>
             </div>
         </div>
-        <!--IMG:-->
+        <!-- IMG -->
         <figure class="w-50">
-            <img src="" alt="">
+            <img src="../assets/img/home-5-hero-image.png" :alt='JumboContent.title'>
+            <!--
+                Ho dovuto per forza fare così perchè 
+                :src='JumboContent.img_uri' non
+                funzionava, ho controllato in console
+                e il percorso era corretto, ma non
+                si vedeva comunque nulla in pagina
+            -->
         </figure>
-
     </div>
 </template>
 
@@ -35,7 +45,8 @@ export default {
 }
 
 .text_jumbo {
-    width: 420px;
+    width: 390px;
+    padding: 20px 20px 20px 0;
     border: dashed black 1px;
 }
 </style>
