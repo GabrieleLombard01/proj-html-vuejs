@@ -2,15 +2,14 @@
 export default {
     data() {
         return {
-            sectionVisibilitySet: false,
             isClicked: false,
-        }
+        };
     },
     methods: {
         handleClick() {
-            this.isClicked = true;
-        }
-    }
+            this.isClicked = !this.isClicked;
+        },
+    },
 };
 </script>
 
