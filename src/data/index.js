@@ -25,32 +25,32 @@ export const data = {
     ],
     titleSecondSection: [
       {
-        "surtitle" : "START LEARNING CODING LANGUAGES",
-        "title" : "Build Your Dream TODAY",
+        "surtitle" : "DREAM WITH MAXCOACH",
+        "title" : "Construct A Stunning Career Perspective",
       }
     ],
     titleThirdSection: [
       {
-        "surtitle" : "START LEARNING CODING LANGUAGES",
-        "title" : "Build Your Dream TODAY",
+        "surtitle" : "CHOOSE WHERE YOU'D LIKE TO BEGIN",
+        "title" : "Latest Featured Courses",
       }
     ],
     titleFourthSection: [
       {
-        "surtitle" : "START LEARNING CODING LANGUAGES",
-        "title" : "Build Your Dream TODAY",
+        "surtitle" : "WHY HESITATE TO REGISTER?",
+        "title" : "Learn At YourOwn Pace",
       }
     ],
     titleFifthSection: [
       {
-        "surtitle" : "START LEARNING CODING LANGUAGES",
-        "title" : "Build Your Dream TODAY",
+        "surtitle" : "GET IN CONTACT NOW",
+        "title" : "Upcoming Events",
       }
     ],
     titleSixthSection: [
       {
-        "surtitle" : "START LEARNING CODING LANGUAGES",
-        "title" : "Build Your Dream TODAY",
+        "surtitle" : "PEOPLE ARE PRAISING MAXCOACH",
+        "title" : "What make they love us?",
       }
     ]
   };
