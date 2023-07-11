@@ -1,5 +1,3 @@
-import { compileTemplate } from "vue/compiler-sfc";
-
 export const data = {
     HeaderNav: [
       {
