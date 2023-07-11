@@ -3,9 +3,14 @@ import demoSelect from './components/appDemoSelect.vue';
 import appHeader from './components/appHeader.vue';
 import jumbo from './components/jumbo.vue';
 import firstSect from './components/Sections/appFirstSection.vue';
+import secondSect from './components/Sections/appSecondSection.vue';
+//import thirdSect from './components/Sections/appThirdSection.vue';
+//import fourthSect from './components/Sections/appFourthSection.vue';
+//import fifthSect from './components/Sections/appFifthSection.vue';
+//import sixthSect from './components/Sections/appSixthSection.vue';
 
 export default {
-  components: { demoSelect, appHeader, jumbo, firstSect },
+  components: { demoSelect, appHeader, jumbo, firstSect, secondSect },
 };
 </script>
 
@@ -28,6 +33,8 @@ export default {
 
         <!-- SECTIONS: -->
         <firstSect />
+
+        <secondSect />
 
 
         <p class="margin_contents ">
