@@ -16,6 +16,42 @@ export const data = {
         "img_uri" : "../assets/img/home-5-hero-image.png",
         "btn" : "Download free E-book",
       }
+    ],
+    titleFirstSection: [
+      {
+        "surtitle" : "START LEARNING CODING LANGUAGES",
+        "title" : "Build Your Dream TODAY",
+      }
+    ],
+    titleSecondSection: [
+      {
+        "surtitle" : "START LEARNING CODING LANGUAGES",
+        "title" : "Build Your Dream TODAY",
+      }
+    ],
+    titleThirdSection: [
+      {
+        "surtitle" : "START LEARNING CODING LANGUAGES",
+        "title" : "Build Your Dream TODAY",
+      }
+    ],
+    titleFourthSection: [
+      {
+        "surtitle" : "START LEARNING CODING LANGUAGES",
+        "title" : "Build Your Dream TODAY",
+      }
+    ],
+    titleFifthSection: [
+      {
+        "surtitle" : "START LEARNING CODING LANGUAGES",
+        "title" : "Build Your Dream TODAY",
+      }
+    ],
+    titleSixthSection: [
+      {
+        "surtitle" : "START LEARNING CODING LANGUAGES",
+        "title" : "Build Your Dream TODAY",
+      }
     ]
   };
 
