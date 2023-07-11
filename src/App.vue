@@ -5,12 +5,12 @@ import jumbo from './components/jumbo.vue';
 import firstSect from './components/Sections/appFirstSection.vue';
 import secondSect from './components/Sections/appSecondSection.vue';
 import thirdSect from './components/Sections/appThirdSection.vue';
-//import fourthSect from './components/Sections/appFourthSection.vue';
-//import fifthSect from './components/Sections/appFifthSection.vue';
-//import sixthSect from './components/Sections/appSixthSection.vue';
+import fourthSect from './components/Sections/appFourthSection.vue';
+import fifthSect from './components/Sections/appFifthSection.vue';
+import sixthSect from './components/Sections/appSixthSection.vue';
 
 export default {
-  components: { demoSelect, appHeader, jumbo, firstSect, secondSect, thirdSect },
+  components: { demoSelect, appHeader, jumbo, firstSect, secondSect, thirdSect, fourthSect, fifthSect, sixthSect },
 };
 </script>
 
@@ -37,6 +37,12 @@ export default {
         <secondSect />
 
         <thirdSect />
+
+        <fourthSect />
+
+        <fifthSect />
+
+        <sixthSect />
 
 
         <p class="margin_contents ">
