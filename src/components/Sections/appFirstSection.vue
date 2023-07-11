@@ -19,9 +19,9 @@ export default {
     <section>
         <div class="margin_contents text-center pt-5">
             <appTitle :title="titleFirstSection" />
-            <div class="row">
-                <cardLearn />
-            </div>
+
+            <cardLearn />
+
         </div>
     </section>
 </template>
