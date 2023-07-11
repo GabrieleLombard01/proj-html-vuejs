@@ -1,10 +1,11 @@
 <script>
 import appTitle from '../appTitle.vue';
+import cardLearn from '../Cards/appCardLearn.vue';
 import { data } from '../../data/index';
 
 
 export default {
-    components: { appTitle },
+    components: { appTitle, cardLearn },
     computed: {
         titleFirstSection() {
             return data.titleFirstSection[0];
@@ -16,8 +17,11 @@ export default {
 
 <template>
     <section>
-        <div class="margin_contents">
+        <div class="margin_contents text-center pt-5">
             <appTitle :title="titleFirstSection" />
+            <div class="row">
+                <cardLearn />
+            </div>
         </div>
     </section>
 </template>
