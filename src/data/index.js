@@ -1,6 +1,6 @@
 import { compileTemplate } from "vue/compiler-sfc";
 
-export const store = {
+export const data = {
     HeaderNav: [
       {
         "home": "Home ▼",

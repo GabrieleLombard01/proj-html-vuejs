@@ -1,10 +1,10 @@
 <script>
-import { store } from '../data/store.js';
+import { data } from '../data/index.js';
 
 export default {
     computed: {
         headerNav() {
-            return store.HeaderNav[0];
+            return data.HeaderNav[0];
         }
     }
 };

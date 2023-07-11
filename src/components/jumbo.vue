@@ -1,10 +1,10 @@
 <script>
-import { store } from '../data/store.js';
+import { data } from '../data/index.js';
 
 export default {
     computed: {
         JumboContent() {
-            return store.JumboContent[0];
+            return data.JumboContent[0];
         }
     }
 };

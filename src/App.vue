@@ -191,7 +191,6 @@ export default {
     <!-- DEMOSELECT-CONTAINER: -->
     <demoSelect />
 
-
   </div>
 </template>
 
