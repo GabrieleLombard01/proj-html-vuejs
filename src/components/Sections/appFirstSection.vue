@@ -1,21 +1,27 @@
 <script>
-import appTitle from '../appTitle.vue'
+import appTitle from '../appTitle.vue';
+import { data } from '../../data/index';
+
+
 export default {
     components: { appTitle },
     computed: {
-
+        titleFirstSection() {
+            return data.titleFirstSection[0];
+        },
     },
-
 };
 </script>
+  
 
 <template>
     <section>
         <div class="margin_contents">
-            <appTitle />
+            <appTitle :title="titleFirstSection" />
         </div>
     </section>
 </template>
+  
 
 <style scoped>
 section {
@@ -24,3 +30,4 @@ section {
     height: 80vh;
 }
 </style>
+  
