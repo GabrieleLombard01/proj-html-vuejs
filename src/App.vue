@@ -26,7 +26,7 @@ export default {
         <!-- JUMBO: -->
         <jumbo />
 
-        <!-- section: -->
+        <!-- SECTIONS: -->
         <firstSect />
 
 
