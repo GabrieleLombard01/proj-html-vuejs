@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 section {
-    background-color: white(191, 191, 191);
+    background-color: #fefefe;
     width: 100%;
     height: 80vh;
 }
