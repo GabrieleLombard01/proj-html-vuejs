@@ -175,6 +175,57 @@ export const data = {
       title: "Learn on your mobile anytime!",
       descr: "Save lessons for later and revise or write notes at any time and on multiple devices on your way. Never interfere with activities of enjoyment or other precious moments."
     }
-  ]
+  ],
+
+      // CARD EVENTS DATA:
+      firstCardEvents: [
+        {
+          position: "Texas, US",
+          title: "Storytelling Workshop",
+          day: "22",
+          month: "NOV",
+        }
+      ],
+      secondCardEvents: [
+        {
+          position: "Hamburg, Germany",
+          title: "International Art Fair 2020",
+          day: "23",
+          month: "NOV",
+        }
+      ],
+      thirdCardEvents: [
+        {
+          position: "Illinois, US",
+          title: "Consumer Food Safety Education Conference",
+          day: "22",
+          month: "JUL",
+        }
+      ],
+      fourthCardEvents: [
+        {
+          position: "New York, US",
+          title: "Painting Art Contest 2020",
+          day: "10",
+          month: "OCT",
+        }
+      ],
+      fifthCardEvents: [
+        {
+          position: "Illinois, US",
+          title: "Street Performance: Call for Artist",
+          day: "15",
+          month: "DEC",
+        }
+      ],
+      sixthCardEvents: [
+        {
+          position: "Dubai",
+          title: "How meditation improve your mental health?",
+          day: "12",
+          month: "AUG",
+        }
+      ],
+  
 };
 

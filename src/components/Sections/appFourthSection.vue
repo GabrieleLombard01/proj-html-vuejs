@@ -41,21 +41,19 @@ export default {
                     <img class="" src="../../assets/img/home-5-image-01.png" alt="">
                 </div>
             </div>
+
             <!--SECOND SECTION-->
-
-
             <div class="row justify-content-between">
                 <div class="col-5">
                     <img class="" src="../../assets/img/home-5-image-02.png">
                 </div>
                 <div class="col-6">
-                    <div class="text_container">
-                        <h1>{{ fourthContInf.title }}</h1>
+                    <div class="text_container mx-auto mt-5 pt-5">
+                        <h5>{{ fourthContInf.surtitle }}</h5>
+                        <h2>{{ fourthContInf.title }}</h2>
+                        <p>{{ fourthContInf.descr }}</p>
+                        <button class="main_btn mx-auto">Get started for free</button>
                     </div>
-                    <p>{{ fourthContInf.descr }}</p>
-
-
-                    <button class="main_btn mx-auto">Get started for free</button>
                 </div>
             </div>
         </div>

@@ -1,9 +1,10 @@
 <script>
 import appTitle from '../appTitle.vue';
+import cardEvents from '../Cards/appCardEvents.vue';
 import { data } from '../../data/index.js';
 
 export default {
-    components: { appTitle },
+    components: { appTitle, cardEvents },
     computed: {
         titleFifthSection() {
             return data.titleFifthSection[0];
@@ -13,9 +14,11 @@ export default {
 </script>
 
 <template>
-    <section>
+    <section class="mt-5">
         <div class="margin_contents">
-            <appTitle :title="titleFifthSection" />
+            <appTitle class="text-center" :title="titleFifthSection" />
+            <!-- CARDS: -->
+            <cardEvents />
         </div>
     </section>
 </template>
@@ -24,6 +27,6 @@ export default {
 section {
     background-color: white;
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
 }
 </style>
