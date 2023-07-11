@@ -113,48 +113,48 @@ export const data = {
     // CARD FEATURE DATA:
     firstCardFeature: [
       {
-        srcImg: "course-02-480x298",
-        userUri: "73ee246daf47502812ccefc84bf02898",
+        srcImg: "course-02-480x298.jpg",
+        userUri: "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         user: "Blanche Fields",
         title: "Learning to Write as a Professional Author",
       }
     ],
     secondCardFeature: [
       {
-        srcImg: "stock-full-hd-03-480x298",
-        userUri: "d0d504142acfde820eef2f11feea6253",
+        srcImg: "stock-full-hd-03-480x298.jpg",
+        userUri: "d0d504142acfde820eef2f11feea6253.jpeg",
         user: "Maggie Strickland",
         title: "Customer-centric Info-Tech Strategies",
       }
     ],
     thirdCardFeature: [
       {
-        srcImg: "stock-full-hd-04-480x298",
-        userUri: "d0d504142acfde820eef2f11feea6253",
+        srcImg: "stock-full-hd-04-480x298.jpg",
+        userUri: "d0d504142acfde820eef2f11feea6253.jpeg",
         user: "Maggie Strickland",
         title: "Open Programming Courses for Everyone: Python",
       }
     ],
     fourthCardFeature: [
       {
-        srcImg: "stock-full-hd-06-480x298",
-        userUri: "73ee246daf47502812ccefc84bf02898",
+        srcImg: "stock-full-hd-06-480x298.jpg",
+        userUri: "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         user: "Blanche Fields",
         title: "Academic Listening and note-taking",
       }
     ],
     fifthCardFeature: [
       {
-        srcImg: "course-featured-image-01-480x298",
-        userUri: "73ee246daf47502812ccefc84bf02898",
+        srcImg: "course-featured-image-01-480x298.jpg",
+        userUri: "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         user: "Blanche Fields",
         title: "Master jQuery in a Short Period of Time",
       }
     ],
     sixthCardFeature: [
       {
-        srcImg: "stock-full-hd-05-480x298",
-        userUri: "73ee246daf47502812ccefc84bf02898",
+        srcImg: "stock-full-hd-05-480x298.jpg",
+        userUri: "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         user: "Blanche Fields",
         title: "Introdution to Javascript for Beginners",
       }
