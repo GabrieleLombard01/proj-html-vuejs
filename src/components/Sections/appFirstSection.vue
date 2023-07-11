@@ -13,13 +13,13 @@ export default {
     },
 };
 </script>
-  
 
 <template>
     <section>
         <div class="margin_contents text-center pt-5">
             <appTitle :title="titleFirstSection" />
 
+            <!-- CARDS: -->
             <cardLearn />
 
         </div>
@@ -34,4 +34,3 @@ section {
     height: 80vh;
 }
 </style>
-  

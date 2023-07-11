@@ -14,8 +14,8 @@ export default {
 
 <template>
     <section>
-        <div class="margin_contents">
-            <appTitle :title="titleThirdSection" />
+        <div class="margin_contents pt-5 mt-5">
+            <appTitle class="text-center" :title="titleThirdSection" />
         </div>
     </section>
 </template>

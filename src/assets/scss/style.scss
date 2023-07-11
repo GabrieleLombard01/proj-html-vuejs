@@ -27,6 +27,7 @@ header{
     background-color: white;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 ul{
     padding-top: 15px;
@@ -70,6 +71,13 @@ h3{
     background-color: #20ad96;
     color: white;
     padding: 10px 25px 10px 25px;
+    border-style: none;
+    border-radius: 10px;
+}
+.small_btn{
+    background-color: #20ad96;
+    color: white;
+    padding: 8px 15px 8px 15px;
     border-style: none;
     border-radius: 10px;
 }

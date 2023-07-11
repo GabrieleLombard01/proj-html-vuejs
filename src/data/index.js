@@ -89,5 +89,25 @@ export const data = {
       descr: "Have a passion for graphics and arts? Show your talents with confidence and self-assertiveness",
     }
   ],
+
+  // SECOND SECT DATA:
+  careerCont: [
+    {
+      firstBlock: "Multiple Platforms Supported for Teaching & Studying",
+      secondBlock: "Multiple Course Participation at the Same Time",
+      thirdBlock: "Track Study Progress & Deliver Prompt Feedback",
+      firstInsideBlock: "",
+      secondInsideBlock: "",
+      thirdInsideBlock: "",
+      numberSession: "1.926",
+      descrSession: "FINISHED SESSIONS",
+      numberLearn: "3.092+",
+      descrLearn: "ENROLLED LEARNERS",
+      numberInstr: "200",
+      descrInstr: "ONLINE INSTRUCTORS",
+      numberRate: "100%",
+      descrRate: "SATISFACTION RATE",
+    }
+  ],
 };
 
