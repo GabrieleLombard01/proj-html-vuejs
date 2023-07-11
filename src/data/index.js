@@ -159,5 +159,22 @@ export const data = {
         title: "Introdution to Javascript for Beginners",
       }
     ],
+
+    // FOURTH SECT DATA:
+    fourthCont: [
+    {
+      firstTask: "Select & customize courses to your preferences",
+      secondTask: "Change the tutor and make arrangements",
+      thirdTask: "Participate in events to join others",
+      fourthTask: "Get the desired certificate delivered at house",
+    }
+  ],
+  fourthContInf: [
+    {
+      surtitle: "WHAT ARE YOU LOOKING FOR?",
+      title: "Learn on your mobile anytime!",
+      descr: "Save lessons for later and revise or write notes at any time and on multiple devices on your way. Never interfere with activities of enjoyment or other precious moments."
+    }
+  ]
 };
 
