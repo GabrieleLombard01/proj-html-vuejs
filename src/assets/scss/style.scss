@@ -33,7 +33,6 @@ ul{
     padding-top: 15px;
 }
 ul li{
-    list-style: none;
     display: inline-block;
     padding: 0 20px 0 20px;
 }
@@ -49,8 +48,13 @@ h3{
     font-size: 20px;
 }
 /*Utilties*/
-.margin_contents{
+.margin_header_contents{
     width: 1400px;
+    margin: 0 auto;
+    border: dashed black 1px;
+}
+.margin_contents{
+    width: 1200px;
     margin: 0 auto;
     border: dashed black 1px;
 }
@@ -73,6 +77,8 @@ h3{
     padding: 10px 25px 10px 25px;
     border-style: none;
     border-radius: 10px;
+    font-weight: 700;
+
 }
 
 

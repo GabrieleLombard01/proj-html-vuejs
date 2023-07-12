@@ -26,7 +26,7 @@ export default {
       </header>
 
       <!-- main-content: -->
-      <main class="ps-3">
+      <main>
 
         <!-- JUMBO: -->
         <jumbo />

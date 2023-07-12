@@ -30,15 +30,18 @@ export default {
             <div class="row justify-content-between">
                 <div class="col-6">
                     <div class="text_container">
-                        <appTitle :title="titleFourthSection" />
+                        <appTitle class="ps-5" :title="titleFourthSection" />
                     </div>
                     <ul>
-                        <li v-for="task in tasks[0]" :key="task.firstTask">{{ task }}</li>
+                        <li class="d-flex" v-for="task in tasks[0]" :key="task.firstTask">
+                            <img class="img-fluid" src="../../assets/img/check.webp">
+                            <span>{{ task }}</span>
+                        </li>
                     </ul>
-                    <button class="main_btn mx-auto">Get started for free</button>
+                    <button class="main_btn ms-5">Get started for free</button>
                 </div>
                 <div class="col-5">
-                    <img class="" src="../../assets/img/home-5-image-01.png" alt="">
+                    <img src="../../assets/img/home-5-image-01.png">
                 </div>
             </div>
 
@@ -52,7 +55,7 @@ export default {
                         <h5>{{ fourthContInf.surtitle }}</h5>
                         <h2>{{ fourthContInf.title }}</h2>
                         <p>{{ fourthContInf.descr }}</p>
-                        <button class="main_btn mx-auto">Get started for free</button>
+                        <button class="main_btn mx-auto">Download our app</button>
                     </div>
                 </div>
             </div>
@@ -69,14 +72,35 @@ section {
     min-height: 80vh;
 }
 
+button {
+    font-weight: 700;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    color: grey;
+}
+
 ul {
-    height: 50%;
-    width: 60%;
-    line-height: 40px;
+    height: 40%;
+    width: 90%;
+
+}
+
+li {
+    height: 50px;
+    color: grey;
+    font-weight: 700;
+}
+
+li img {
+    height: 20px;
+    padding-right: 10px;
 }
 
 .text_container {
-    width: 45%;
-    list-style: none;
+    width: 65%;
 }
 </style>
