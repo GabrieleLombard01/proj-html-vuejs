@@ -6,6 +6,22 @@ export default {
         headerNav() {
             return data.HeaderNav[0];
         }
+    },
+    data() {
+        return {
+            hoveredIndex: null
+        };
+    },
+    methods: {
+        showDiv(index) {
+            this.hoveredIndex = index;
+        },
+        hideDiv(index) {
+            this.hoveredIndex = null;
+        },
+        isHovered(index) {
+            return this.hoveredIndex === index;
+        }
     }
 };
 </script>
