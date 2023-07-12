@@ -352,7 +352,7 @@ export const data = {
       eleventhCardGrid: [
         {
           title: "Coaching",
-          srcImg: "home-kitchen-coaching-preview.jpg",
+          srcImg: "home-health-coaching-preview.jpg",
         }
       ],
       twelfthCardGrid: [

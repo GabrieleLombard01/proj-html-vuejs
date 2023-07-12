@@ -48,7 +48,7 @@ export default {
 
 <style scoped>
 .right_container {
-    box-shadow: 2px 2px 2px 1px rgb(99, 99, 99);
+    box-shadow: 2px 2px 8px 1px rgb(99, 99, 99);
     width: 20%;
     min-height: 100vh;
     background-color: white;
