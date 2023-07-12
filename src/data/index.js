@@ -11,6 +11,74 @@ export const data = {
     },
   ],
 
+  // HEADER SHOW DATA:
+  home: [
+    {
+      row_1: "MaxCoach Education",
+      row_2: "Course Portal",
+      row_3: "Distant Learning",
+      row_4: "Multimedia Pedagogy",
+      row_5: "Modern Schooling",
+      row_6: "Remote Training",
+      row_7: "Health Coaching",
+      row_8: "Gym Coaching",
+      row_9: "Business",
+      row_10: "Artist",
+      row_11: "Kitchen Coach",
+      row_12: "Motivation",
+    }
+  ],
+  pages: [
+    {
+      row_1: "MaxCoach Education",
+      row_2: "Course Portal",
+      row_3: "Distant Learning",
+      row_4: "Multimedia Pedagogy",
+      row_5: "Modern Schooling",
+      row_6: "Remote Training",
+      row_7: "Health Coaching",
+      row_8: "Gym Coaching",
+      row_9: "Business",
+      row_10: "Artist",
+      row_11: "Kitchen Coach",
+    }
+  ],
+  courses: [
+    {
+      row_1: "MaxCoach Education",
+      row_2: "Course Portal",
+      row_3: "Distant Learning",
+      row_4: "Multimedia Pedagogy",
+      row_5: "Modern Schooling",
+      row_6: "Remote Training",
+      row_7: "Health Coaching",
+      row_8: "Gym Coaching",
+    }
+  ],
+  features: [
+    {
+      row_1: "MaxCoach Education",
+      row_2: "Course Portal",
+    }
+  ],
+  blog: [
+    {
+      row_1: "MaxCoach Education",
+      row_2: "Course Portal",
+      row_3: "Distant Learning",
+      row_4: "Multimedia Pedagogy",
+    }
+  ],
+  shop: [
+    {
+      row_1: "MaxCoach Education",
+      row_2: "Course Portal",
+      row_3: "Distant Learning",
+      row_4: "Multimedia Pedagogy",
+      row_5: "Modern Schooling",
+    }
+  ]
+
   // JUMBO DATA:
   JumboContent: [
     {
