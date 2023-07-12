@@ -77,7 +77,7 @@ export const data = {
       row_4: "Multimedia Pedagogy",
       row_5: "Modern Schooling",
     }
-  ]
+  ],
 
   // JUMBO DATA:
   JumboContent: [

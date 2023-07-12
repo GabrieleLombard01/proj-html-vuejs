@@ -5,7 +5,7 @@ export default {
     computed: {
         headerNav() {
             return data.HeaderNav[0];
-        }
+        },
     },
     data() {
         return {
@@ -36,8 +36,10 @@ export default {
                 <li v-for="(item, index) in headerNav" :key="index" @mouseover="showDiv(index)"
                     @mouseleave="hideDiv(index)">
                     <a class="c_purple" href="#"><strong>{{ item }}</strong></a>
-                    <div v-if="isHovered(index)" class="show_container">
-                        <!--HERE!-->
+                    <div v-if="isHovered(index)" class="show_container row">
+                        <ul>
+                            <li>Click to learn more</li>
+                        </ul>
                     </div>
                 </li>
                 <button id="cart_shopping"><i class="fa-solid fa-cart-shopping"></i></button>
@@ -70,11 +72,22 @@ li a:hover {
 .show_container {
     position: absolute;
     box-shadow: 2px 2px 10px 2px rgb(123, 123, 123);
-    min-width: 10%;
     min-height: 5px;
-    padding: 10px;
+    padding-bottom: 15px;
     border-bottom: solid #20ad96 3px;
     background-color: white;
     border-radius: 8px;
+    line-height: 35px;
+    cursor: pointer;
+    font-weight: 600;
+    color: grey;
+}
+
+.show_container li:hover {
+    color: #20ad96;
+    text-decoration: underline;
 }
 </style>
+
+
+

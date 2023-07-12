@@ -59,6 +59,10 @@ a {
     font-weight: 800;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .long_card {
     margin: 10px;
     display: flex;
