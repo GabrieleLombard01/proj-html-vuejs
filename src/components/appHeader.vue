@@ -33,8 +33,12 @@ export default {
         </div>
         <div class="col-9">
             <ul>
-                <li v-for="(item, index) in headerNav" :key="index">
+                <li v-for="(item, index) in headerNav" :key="index" @mouseover="showDiv(index)"
+                    @mouseleave="hideDiv(index)">
                     <a class="c_purple" href="#"><strong>{{ item }}</strong></a>
+                    <div v-if="isHovered(index)" class="show_container">
+                        <!--HERE!-->
+                    </div>
                 </li>
                 <button id="cart_shopping"><i class="fa-solid fa-cart-shopping"></i></button>
                 <li>
@@ -61,5 +65,16 @@ li a:hover {
 #cart_shopping {
     position: relative;
     right: 15px;
+}
+
+.show_container {
+    position: absolute;
+    box-shadow: 2px 2px 10px 2px rgb(123, 123, 123);
+    min-width: 10%;
+    min-height: 5px;
+    padding: 10px;
+    border-bottom: solid #20ad96 3px;
+    background-color: white;
+    border-radius: 8px;
 }
 </style>
