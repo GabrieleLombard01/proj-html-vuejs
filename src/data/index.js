@@ -251,7 +251,41 @@ export const data = {
           name: "Luvic Duble",
           role: "/ Private Tutor",
         }
+      ],
+
+      // FOOTER DATA:
+      firstCol: [
+        {
+          title: "Adress",
+          firstRow: "382 NE 191st St # 87394 Miami, FL 33179-3899",
+          secondRow: "+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday)",
+          thirdRow: "support@maxcoach.com",
+        }
+      ],
+      secondCol: [
+        {
+          title: "Explore",
+          firstRow: "Start here",
+          secondRow: "Blog",
+          thirdRow: "About us",
+        }
+      ],
+      thirdCol: [
+        {
+          title: "",
+          firstRow: "Success story",
+          secondRow: "Courses",
+          thirdRow: "Contact us",
+        }
+      ],
+      fourthCol: [
+        {
+          title: "Information",
+          firstRow: "Membership",
+          secondRow: "Purchase guide",
+          thirdRow: "Privacy policy",
+          fourthRow: "Terms of services",
+        }
       ]
-  
 };
 
