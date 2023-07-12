@@ -15,6 +15,7 @@ export default {
 h2 {
     font-weight: 800;
     color: #3f3a64;
+    font-size: 45px;
 }
 
 h5 {

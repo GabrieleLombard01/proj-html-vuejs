@@ -21,8 +21,11 @@ export default {
 <template>
     <div class="row pb-3">
         <div class="col-4 pt-5" v-for="(card, index) in cards" :key="index">
-            <div class="card">
+            <div class="card m-2">
                 <img :src="defaultPath + card.srcImg">
+                <div class="price">
+                    <h3>$20,00</h3>
+                </div>
                 <div class="d-flex align-items-center">
                     <div class="col-2 ps-4 pt-3">
                         <img :src="defaultPath + card.userUri">
@@ -41,14 +44,37 @@ export default {
 </template>
 
 <style scoped>
+span {
+    color: grey;
+}
+
+h3 {
+    font-weight: 700;
+}
+
 .card {
     border-style: none;
     padding-bottom: 50px;
+    background-color: #f5f5f5;
+}
+
+.price {
+    width: 100px;
+    text-align: center;
+    background-color: #20ad96;
+    color: white;
+    padding-top: 7px;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .card img {
     width: 100%;
     margin: auto;
+    border-radius: 8px;
+    position: relative;
 }
 
 .col-2 img {

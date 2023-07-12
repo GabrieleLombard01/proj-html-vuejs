@@ -26,9 +26,24 @@ export default {
                 <div class="title_container">
                     <appTitle :title="titleSecondSection" />
                 </div>
-                <div class="career_container">{{ careerCont.firstBlock }}</div>
-                <div class="career_container">{{ careerCont.secondBlock }}</div>
-                <div class="career_container">{{ careerCont.thirdBlock }}</div>
+                <div class="career_container">
+                    <div class="row align-items-center">
+                        <div class="col-11">{{ careerCont.firstBlock }}</div>
+                        <div class="col-1"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+                <div class="career_container">
+                    <div class="row align-items-center">
+                        <div class="col-11">{{ careerCont.secondBlock }}</div>
+                        <div class="col-1"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+                <div class="career_container">
+                    <div class="row align-items-center">
+                        <div class="col-11">{{ careerCont.thirdBlock }}</div>
+                        <div class="col-1"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
             </div>
         </div>
         <!--DATA:-->
@@ -58,12 +73,24 @@ export default {
 section {
     background-color: #fefefe;
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
+}
+
+h1 {
+    color: #20ad96;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+span {
+    font-weight: 700;
+    font-size: 16px;
 }
 
 /* Utilties */
 .title_container {
     width: 60%;
+    margin-bottom: 50px;
 }
 
 .career_container {
@@ -71,8 +98,23 @@ section {
     width: 85%;
     height: 60px;
     border-radius: 10px;
-    padding: 20px;
+    padding: 16px;
     border: solid grey 1px;
+    background-color: #62c5b5;
+    color: white;
+    font-weight: 700;
+}
+
+.fa-plus {
+    border: solid white 1px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fa-plus:hover {
+    color: #62c5b5;
+    background-color: white;
 }
 
 /* DATA LESSIONS: */
