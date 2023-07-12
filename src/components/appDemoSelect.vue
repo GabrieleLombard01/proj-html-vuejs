@@ -1,4 +1,5 @@
 <script>
+import appMaxcoach from './appMaxcoach.vue';
 export default {
     data() {
         return {
@@ -10,11 +11,14 @@ export default {
             this.isClicked = !this.isClicked;
         },
     },
+    components: { appMaxcoach },
 };
 </script>
 
 <template>
-    <div class="right_container" :class="{ 'right_container_after_click': isClicked }"></div>
+    <div class="right_container" :class="{ 'right_container_after_click': isClicked }">
+        <appMaxcoach />
+    </div>
     <div class="demoSelect_container" :style="{ 'margin-right': isClicked ? '20%' : '0' }">
         <button class="d-block p-2 pe-3" @click="handleClick">
             <i class="fa-solid fa-ruler-combined fa-lg"></i>
@@ -40,9 +44,10 @@ export default {
 
 <style scoped>
 .right_container {
+    box-shadow: 2px 2px 2px 1px rgb(99, 99, 99);
     width: 20%;
     min-height: 100vh;
-    background-color: beige;
+    background-color: white;
     position: absolute;
     right: 0;
     top: 0;
