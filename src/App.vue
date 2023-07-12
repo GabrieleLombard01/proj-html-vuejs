@@ -8,9 +8,10 @@ import thirdSect from './components/Sections/appThirdSection.vue';
 import fourthSect from './components/Sections/appFourthSection.vue';
 import fifthSect from './components/Sections/appFifthSection.vue';
 import sixthSect from './components/Sections/appSixthSection.vue';
+import appFooter from './components/appFooter.vue';
 
 export default {
-  components: { demoSelect, appHeader, jumbo, firstSect, secondSect, thirdSect, fourthSect, fifthSect, sixthSect },
+  components: { demoSelect, appHeader, jumbo, firstSect, secondSect, thirdSect, fourthSect, fifthSect, sixthSect, appFooter },
 };
 </script>
 
@@ -44,10 +45,9 @@ export default {
 
         <sixthSect />
 
+        <!-- FOOTER: -->
+        <appFooter />
 
-        <p class="margin_contents ">
-
-        </p>
       </main>
 
     </div>

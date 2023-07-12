@@ -22,21 +22,43 @@ export default {
         <div class="col-6 pt-5" v-for="(card, index) in cards" :key="index">
             <div class="long_card">
                 <div class="col-9">
-                    <span>{{ card.position }}</span>
-                    <h3>{{ card.title }}</h3>
+                    <span class="pos">{{ card.position }}</span>
+                    <h3 class="mt-3">{{ card.title }}</h3>
                 </div>
                 <div class="col-3 text-center">
                     <h1>{{ card.day }}</h1>
                     <span>{{ card.month }}</span>
-                    <div class="main_btn">Get ticket</div>
+                    <div class="main_btn mt-2">Get ticket</div>
                 </div>
             </div>
         </div>
     </div>
-    <h3 class="text-center pt-5"><a href="#">Excited about our event? View all events</a></h3>
-</template >
+    <div class="text-center p-5">
+        <h4 class="text-center pt-5 pe-2 d-inline">Excited about our event?</h4>
+        <a class="d-inline" href="#">View all events -></a>
+    </div>
+</template >View all events
 
 <style scoped>
+h1 {
+    color: #20ad96;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+h4 {
+    font-weight: 600;
+    color: grey;
+    font-size: 17px;
+}
+
+a {
+    color: #20ad96;
+    font-weight: 800;
+}
+
 .long_card {
     margin: 10px;
     display: flex;
@@ -44,6 +66,12 @@ export default {
     align-items: center;
     background-color: #f8f8f8;
     border-radius: 10px;
-    padding: 20px;
+    padding: 5px 20px 10px 20px;
+    font-weight: 700;
+}
+
+.pos {
+    font-weight: 600;
+    color: grey;
 }
 </style>
