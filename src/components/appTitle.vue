@@ -11,4 +11,14 @@ export default {
     </div>
 </template>
 
-<style></style>
+<style>
+h2 {
+    font-weight: 800;
+    color: #3f3a64;
+}
+
+h5 {
+    color: grey;
+    font-size: 17px;
+}
+</style>

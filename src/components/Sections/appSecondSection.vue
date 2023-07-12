@@ -77,6 +77,8 @@ section {
 
 /* DATA LESSIONS: */
 .data_lessions {
+    margin: auto;
+    width: 1400px;
     height: 150px;
     background-color: #faf8f6;
     display: flex;

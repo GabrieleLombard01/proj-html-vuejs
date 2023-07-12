@@ -23,13 +23,22 @@ export default {
                 <img :src="defaultPath + card.srcImg">
                 <h6 class="pt-4">{{ card.title }}</h6>
                 <span class="pt-3">{{ card.descr }}</span>
-                <button class="small_btn mt-4 w-50 mx-auto">Start Now</button>
+                <button class="small_btn mt-3 mb-3 w-50 mx-auto">Start Now</button>
             </div>
         </div>
     </div>
 </template>
 
 <style scoped>
+h6 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+span {
+    color: grey;
+}
+
 .card {
     border-style: none;
 }
@@ -37,5 +46,18 @@ export default {
 .card img {
     width: max-content;
     margin: auto;
+}
+
+.small_btn {
+    color: rgb(94, 94, 94);
+    padding: 5px 10px 5px 10px;
+    border-style: none;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.small_btn:hover {
+    background-color: rgb(218, 218, 218);
 }
 </style>

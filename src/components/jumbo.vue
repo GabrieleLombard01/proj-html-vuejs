@@ -38,6 +38,17 @@ export default {
 </template>
 
 <style scoped>
+h1 {
+    font-weight: 800;
+    color: #3f3a64;
+}
+
+h3 {
+    color: grey;
+    font-size: 17px;
+    line-height: 35px;
+}
+
 .jumbo {
     height: 80vh;
     width: 100%;
@@ -48,7 +59,6 @@ export default {
 .text_jumbo {
     width: 460px;
     padding: 20px 20px 20px 0;
-    border: dashed black 1px;
 
 }
 

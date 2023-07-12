@@ -1,6 +1,5 @@
 <script>
 import { data } from "../../data/index";
-
 export default {
     data() {
         return {
@@ -29,7 +28,6 @@ export default {
         </div>
     </div>
 </template>
-
 
 <style scoped>
 .role_card img {
