@@ -81,6 +81,7 @@ h3 {
 
 .card img {
     width: 100%;
+    height: 100%;
     margin: auto;
     border-radius: 8px;
     position: relative;
