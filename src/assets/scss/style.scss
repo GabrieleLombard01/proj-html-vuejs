@@ -24,7 +24,7 @@ body{
     font-family: $main-font;
 }
 header{
-    height: 60px;
+    height: 75px;
     width: 100%;
     background-color: white;
     position: fixed;
@@ -66,9 +66,9 @@ h3{
 }
 .left_container{
     width: 100%;
-    height: calc(100vh - 58px);
+    height: calc(100vh - 76px);
     position: relative;
-    margin-top: 56px;
+    margin-top: 76px;
     
 }
 /*Buttons*/

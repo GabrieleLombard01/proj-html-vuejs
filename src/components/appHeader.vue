@@ -46,7 +46,7 @@ export default {
                 <li>
                     <i class="fa-regular fa-circle-user fa-lg me-1"></i>
                     <input class="ps-3" type="search" placeholder="Search...">
-                    <button><i class="ps-2 fa-solid fa-magnifying-glass"></i></button>
+                    <button id="searchBtn"><i class="ps-2 fa-solid fa-magnifying-glass"></i></button>
                 </li>
             </ul>
         </div>
@@ -64,9 +64,30 @@ li a:hover {
     color: #20ad96;
 }
 
+input {
+    height: 45px;
+    width: 70%;
+    border-style: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #f5f5f5;
+}
+
+input:focus {
+    border-style: none;
+    border: #f5f5f5;
+}
+
 #cart_shopping {
     position: relative;
     right: 15px;
+}
+
+#searchBtn {
+    background-color: #f5f5f5;
+    height: 45px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .show_container {
@@ -86,6 +107,17 @@ li a:hover {
 .show_container li:hover {
     color: #20ad96;
     text-decoration: underline;
+}
+
+.fa-magnifying-glass {
+    padding-right: 20px;
+    color: #20ad96;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.fa-circle-user {
+    cursor: pointer;
 }
 </style>
 

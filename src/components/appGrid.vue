@@ -34,7 +34,7 @@ export default {
 </script>
 
 <template>
-    <div class="grid_container mt-3 pt-5 p-4">
+    <div class="grid_container mt-1 pt-5 p-4">
         <div class="row">
             <div class="col-6 pb-4" v-for="(card, index) in cards" :key="index">
                 <div class="image-container">

@@ -35,6 +35,14 @@ export default {
                     </div>
                 </div>
                 <h3 class="card_title pt-2 ps-4">{{ card.title }}</h3>
+                <div class="data_zone">
+                    <div class="col-4 ps-2">
+                        <span>20 Lesson</span>
+                    </div>
+                    <div class="col-4">
+                        <span>500 Students</span>
+                    </div>
+                </div>
             </div>
         </div>
         <button class="main_btn mx-auto w-25 mt-5">
@@ -56,6 +64,7 @@ h3 {
     border-style: none;
     padding-bottom: 50px;
     background-color: #f5f5f5;
+    height: 489px;
 }
 
 .price {
@@ -84,5 +93,13 @@ h3 {
 
 .card_title {
     width: 70%;
+}
+
+.data_zone {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
 </style>
