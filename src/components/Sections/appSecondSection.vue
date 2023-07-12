@@ -4,16 +4,27 @@ import { data } from '../../data/index.js';
 
 export default {
     components: { appTitle },
+    data() {
+        return {
+            careerCont: data.careerCont.slice(0, 3).map((block) => ({
+                ...block,
+                opened: false,
+            })),
+        };
+    },
+    methods: {
+        toggleAccordion(index) {
+            this.careerCont[index].opened = !this.careerCont[index].opened;
+        },
+    },
     computed: {
         titleSecondSection() {
             return data.titleSecondSection[0];
         },
-        careerCont() {
-            return data.careerCont[0];
-        }
     },
 };
 </script>
+
 
 <template>
     <section>
@@ -26,24 +37,25 @@ export default {
                 <div class="title_container">
                     <appTitle :title="titleSecondSection" />
                 </div>
-                <div class="career_container">
+                <!--ACCORDION:-->
+                <div class="career_container" v-for="(block, index) in careerCont" :key="index"
+                    @click="toggleAccordion(index)">
                     <div class="row align-items-center">
-                        <div class="col-11">{{ careerCont.firstBlock }}</div>
-                        <div class="col-1"><i class="fa-solid fa-plus"></i></div>
+                        <div class="col-11">{{ block.firstBlock }}</div>
+                        <div class="col-1">
+                            <i :class="{ 'fa-solid fa-plus': !block.opened, 'fa-solid fa-minus': block.opened }"></i>
+                        </div>
+                    </div>
+                    <div v-if="block.opened" class="accordion_content">
+                        <p>{{ block.firstInsideBlock }}</p>
                     </div>
                 </div>
-                <div class="career_container">
-                    <div class="row align-items-center">
-                        <div class="col-11">{{ careerCont.secondBlock }}</div>
-                        <div class="col-1"><i class="fa-solid fa-plus"></i></div>
-                    </div>
-                </div>
-                <div class="career_container">
-                    <div class="row align-items-center">
-                        <div class="col-11">{{ careerCont.thirdBlock }}</div>
-                        <div class="col-1"><i class="fa-solid fa-plus"></i></div>
-                    </div>
-                </div>
+
+
+
+
+
+
             </div>
         </div>
         <!--DATA:-->
@@ -112,7 +124,19 @@ span {
     cursor: pointer;
 }
 
+.fa-minus {
+    border: solid white 1px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 .fa-plus:hover {
+    color: #62c5b5;
+    background-color: white;
+}
+
+.fa-minus:hover {
     color: #62c5b5;
     background-color: white;
 }
@@ -127,5 +151,15 @@ span {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+/* ACCORDION: */
+.accordion_content {
+    padding: 16px;
+    border: solid grey 1px;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    font-weight: 700;
 }
 </style>

@@ -37,6 +37,11 @@ ul button {
     background-color: white;
 }
 
+li a:hover {
+    text-decoration: underline;
+    color: #20ad96;
+}
+
 #cart_shopping {
     position: relative;
     right: 15px;

@@ -96,7 +96,7 @@ export const data = {
       firstBlock: "Multiple Platforms Supported for Teaching & Studying",
       secondBlock: "Multiple Course Participation at the Same Time",
       thirdBlock: "Track Study Progress & Deliver Prompt Feedback",
-      firstInsideBlock: "",
+      firstInsideBlock: "MaxCoach supports the act of teaching and learning on multiple platforms like online or offline via material downloads. We know things arent supposed to be devoured in a short time, you can always access our knowledge base from any device. ",
       secondInsideBlock: "",
       thirdInsideBlock: "",
       numberSession: "1.926",
