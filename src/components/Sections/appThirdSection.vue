@@ -15,7 +15,7 @@ export default {
 
 <template>
     <section>
-        <div class="margin_contents pt-5 mt-5">
+        <div class="margin_contents pt-5 mt-5 pb-5 mb-5">
             <appTitle class="text-center" :title="titleThirdSection" />
             <appCardFeature />
         </div>

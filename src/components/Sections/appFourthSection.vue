@@ -46,7 +46,7 @@ export default {
             </div>
 
             <!--SECOND SECTION-->
-            <div class="row justify-content-between">
+            <div class="row justify-content-between pb-5 mb-5">
                 <div class="col-5">
                     <img class="" src="../../assets/img/home-5-image-02.png">
                 </div>

@@ -15,6 +15,7 @@
 /*Pseudo-classes*/
 .main_btn:hover{
     background-color: #3f3a64;
+    cursor: pointer;
 }
 
 /*Generics*/
@@ -51,12 +52,10 @@ h3{
 .margin_header_contents{
     width: 1400px;
     margin: 0 auto;
-    border: dashed black 1px;
 }
 .margin_contents{
     width: 1200px;
     margin: 0 auto;
-    border: dashed black 1px;
 }
 /*Layout*/
 .container-fluid{

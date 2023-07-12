@@ -33,7 +33,7 @@ export default {
                     <h2 class="d-inline pe-2">Start today for getting</h2>
                     <a href="#">Online Certification</a>
                     <h1>You can be your own guiding star with our help!</h1>
-                    <button class="main_btn mt-4">Get started now</button>
+                    <button class="main_btn mt-4 mb-5">Get started now</button>
                 </div>
             </div>
         </div>

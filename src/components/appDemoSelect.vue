@@ -48,6 +48,7 @@ export default {
     top: 0;
     bottom: 0;
     display: none;
+    z-index: 2;
 }
 
 .right_container_after_click {
