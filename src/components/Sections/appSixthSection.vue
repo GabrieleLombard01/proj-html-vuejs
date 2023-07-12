@@ -1,9 +1,10 @@
 <script>
 import appTitle from '../appTitle.vue';
+import cardRoles from '../Cards/appCardRoles.vue';
 import { data } from '../../data/index.js';
 
 export default {
-    components: { appTitle },
+    components: { appTitle, cardRoles },
     computed: {
         titleSixthSection() {
             return data.titleSixthSection[0];
@@ -15,7 +16,9 @@ export default {
 <template>
     <section>
         <div class="margin_contents">
-            <appTitle :title="titleSixthSection" />
+            <appTitle class="text-center pt-5" :title="titleSixthSection" />
+            <!-- CARDS: -->
+            <cardRoles />
         </div>
     </section>
 </template>
@@ -24,6 +27,6 @@ export default {
 section {
     background-color: #f8f8f8;
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
 }
 </style>

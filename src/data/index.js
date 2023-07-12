@@ -226,6 +226,32 @@ export const data = {
           month: "AUG",
         }
       ],
+
+      // CARD ROLES DATA:
+      firstCardRoles: [
+        {
+          srcImg: "testimonial-avata-01.jpg",
+          decr: "I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.",
+          name: "MINA HOLLACE",
+          role: "/ Freelancer",
+        }
+      ],
+      secondCardRoles: [
+        {
+          srcImg: "testimonial-avata-02.jpg",
+          decr: "MaxCoach is my best choise. Their tutors are smart and professional when dealing with students.",
+          name: "MADLEY PONDOR",
+          role: "/ IT Specialist",
+        }
+      ],
+      thirdCardRoles: [
+        {
+          srcImg: "testimonial-avata-03.jpg",
+          decr: "I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation.",
+          name: "Luvic Duble",
+          role: "/ Private Tutor",
+        }
+      ]
   
 };
 
