@@ -286,6 +286,81 @@ export const data = {
           thirdRow: "Privacy policy",
           fourthRow: "Terms of services",
         }
-      ]
+      ],
+
+      // APP GRID DATA:
+      firstCardGrid: [
+        {
+          title: "course",
+          srcImg: "home-01-preview.jpg",
+        }
+      ],
+      secondCardGrid: [
+        {
+          title: "course",
+          srcImg: "home-02-preview.jpg",
+        }
+      ],
+      thirdCardGrid: [
+        {
+          title: "course",
+          srcImg: "home-03-preview.jpg",
+        }
+      ],
+      fourthCardGrid: [
+        {
+          title: "course",
+          srcImg: "home-04-preview.jpg",
+        }
+      ],
+      fifthCardGrid: [
+        {
+          title: "course",
+          srcImg: "home-05-preview.jpg",
+        }
+      ],
+      sixthCardGrid: [
+        {
+          title: "course",
+          srcImg: "home-06-preview.jpg",
+        }
+      ],
+      seventhCardGrid: [
+        {
+          title: "course",
+          srcImg: "home-artist-preview.jpg",
+        }
+      ],
+      eigthCardGrid: [
+        {
+          title: "coaching",
+          srcImg: "home-business-preview.jpg",
+        }
+      ],
+      ninthCardGrid: [
+        {
+          title: "coaching",
+          srcImg: "home-gym-coaching-preview.jpg",
+        }
+      ],
+      tenthCardGrid: [
+        {
+          title: "coaching",
+          srcImg: "home-health-coaching-preview.jpg",
+        }
+      ],
+      eleventhCardGrid: [
+        {
+          title: "Coaching",
+          srcImg: "home-kitchen-coaching-preview.jpg",
+        }
+      ],
+      twelfthCardGrid: [
+        {
+          title: "course",
+          srcImg: "home-motivation-preview.jpg",
+        }
+      ],
+
 };
 

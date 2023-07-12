@@ -1,5 +1,6 @@
 <script>
 import appMaxcoach from './appMaxcoach.vue';
+import appGrid from './appGrid.vue';
 export default {
     data() {
         return {
@@ -11,13 +12,16 @@ export default {
             this.isClicked = !this.isClicked;
         },
     },
-    components: { appMaxcoach },
+    components: { appMaxcoach, appGrid },
 };
 </script>
 
 <template>
     <div class="right_container" :class="{ 'right_container_after_click': isClicked }">
+        <!--TEXT-->
         <appMaxcoach />
+        <!--row:-->
+        <appGrid />
     </div>
     <div class="demoSelect_container" :style="{ 'margin-right': isClicked ? '20%' : '0' }">
         <button class="d-block p-2 pe-3" @click="handleClick">
