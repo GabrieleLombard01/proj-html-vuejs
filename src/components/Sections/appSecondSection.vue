@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <section>
+    <section class="bg_data">
         <!--CONTENT:-->
         <div class="margin_contents row">
             <div class="col-6">
@@ -177,5 +177,9 @@ span {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.bg_data {
+    background-color: #faf8f6;
 }
 </style>
