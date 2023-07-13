@@ -72,6 +72,7 @@ a:hover {
     border-radius: 10px;
     padding: 5px 20px 10px 20px;
     font-weight: 700;
+    box-shadow: 1px 1px 8px 5px #cfcfcf;
 }
 
 .pos {

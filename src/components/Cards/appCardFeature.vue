@@ -113,6 +113,6 @@ h3 {
 .card:hover {
     cursor: pointer;
     box-shadow: 1px 1px 20px 1px;
-    transition: 0.6s;
+    transition: 0.4s;
 }
 </style>

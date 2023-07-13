@@ -46,10 +46,31 @@ export default {
             </a>
         </button>
     </div>
+    <div class="suggestion "><span>Select Demo</span></div>
 </template>
 
 
 <style scoped>
+.suggestion {
+    height: 40px;
+    min-width: 100px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    color: white;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 7px;
+    display: none;
+}
+
+.fa-ruler-combined:hover.suggestion {
+    display: block;
+}
+
 .right_container {
     box-shadow: 2px 2px 8px 1px rgb(99, 99, 99);
     width: 20%;

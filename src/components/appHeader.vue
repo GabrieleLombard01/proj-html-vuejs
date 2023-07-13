@@ -112,7 +112,7 @@ input {
     min-height: 100px;
     width: 400px;
     border-radius: 10px;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5dc;
     box-shadow: 1px 1px 8px 3px;
     position: absolute;
     top: 65%;
@@ -122,7 +122,10 @@ input {
 }
 
 .cart_container .col-6 img {
-    width: 150px;
+    width: 140px;
+    border-radius: 30%;
+    padding: 20px;
+    background-color: #20ad96;
 }
 </style>
 

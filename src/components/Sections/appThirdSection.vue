@@ -33,7 +33,7 @@ section {
 }
 
 .bg_curv {
-    height: 100px;
+    height: 50px;
     width: 100%;
     background-image: url(../../assets/img/curved.png);
     background-size: cover;

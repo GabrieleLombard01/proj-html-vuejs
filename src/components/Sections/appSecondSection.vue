@@ -16,11 +16,11 @@ export default {
 </script>
 
 <template>
-    <section class="bg_data">
+    <section class="bg_data pt-5">
         <!--CONTENT:-->
         <div class="margin_contents row">
-            <div class="col-6">
-                <img src="../../assets/img/about-us-03-image-01.png" alt="about-us">
+            <div class="col-6 pt-5">
+                <img class="pt-4" src="../../assets/img/about-us-03-image-01.png" alt="about-us">
             </div>
             <div class="col-6 ">
                 <div class="title_container">
@@ -45,9 +45,7 @@ export default {
                     </div>
                 </div>
 
-                <div class="career_contained">
-                    {{ careerCont.firstInsideBlock }}
-                </div>
+
 
                 <div class="career_container">
                     <div class="row align-items-center">
@@ -56,15 +54,9 @@ export default {
                     </div>
                 </div>
 
-                <div class="career_contained">
-                    {{ careerCont.firstInsideBlock }}
-                </div>
+
 
                 <!--accordion:-->
-
-
-
-
 
             </div>
 
@@ -94,9 +86,6 @@ export default {
 
 <style scoped>
 /* accordion */
-
-
-
 
 
 
@@ -143,11 +132,10 @@ span {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 16px;
-    border: solid grey 1px;
-    background-color: #eaeded;
+    box-sizing: 1px 1px 8px 3px grey;
+    background-color: #ffffff;
     color: rgb(105, 105, 105);
     font-weight: 500;
-    display: none;
 }
 
 .fa-plus {
