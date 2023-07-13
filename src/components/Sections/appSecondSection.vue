@@ -26,25 +26,48 @@ export default {
                 <div class="title_container">
                     <appTitle :title="titleSecondSection" />
                 </div>
+
                 <div class="career_container">
                     <div class="row align-items-center">
                         <div class="col-11">{{ careerCont.firstBlock }}</div>
                         <div class="col-1"><i class="fa-solid fa-plus"></i></div>
                     </div>
                 </div>
+
+                <div class="career_contained">
+                    {{ careerCont.firstInsideBlock }}
+                </div>
+
                 <div class="career_container">
                     <div class="row align-items-center">
                         <div class="col-11">{{ careerCont.secondBlock }}</div>
                         <div class="col-1"><i class="fa-solid fa-plus"></i></div>
                     </div>
                 </div>
+
+                <div class="career_contained">
+                    {{ careerCont.firstInsideBlock }}
+                </div>
+
                 <div class="career_container">
                     <div class="row align-items-center">
                         <div class="col-11">{{ careerCont.thirdBlock }}</div>
                         <div class="col-1"><i class="fa-solid fa-plus"></i></div>
                     </div>
                 </div>
+
+                <div class="career_contained">
+                    {{ careerCont.firstInsideBlock }}
+                </div>
+
+                <!--accordion:-->
+
+
+
+
+
             </div>
+
         </div>
         <!--DATA:-->
         <div class="data_lessions mt-5">
@@ -70,6 +93,14 @@ export default {
 </template>
 
 <style scoped>
+/* accordion */
+
+
+
+
+
+
+
 section {
     background-color: #fefefe;
     width: 100%;
@@ -94,7 +125,7 @@ span {
 }
 
 .career_container {
-    margin: 20px 20px 20px 0;
+    margin: 20px 20px 0px 0;
     width: 85%;
     height: 60px;
     border-radius: 10px;
@@ -103,6 +134,20 @@ span {
     background-color: #62c5b5;
     color: white;
     font-weight: 700;
+}
+
+.career_contained {
+    margin: 0px 20px 20px 0px;
+    width: 85%;
+    min-height: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 16px;
+    border: solid grey 1px;
+    background-color: #eaeded;
+    color: rgb(105, 105, 105);
+    font-weight: 500;
+    display: none;
 }
 
 .fa-plus {

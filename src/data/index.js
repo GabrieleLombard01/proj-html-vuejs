@@ -185,6 +185,9 @@ export const data = {
         userUri: "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         user: "Blanche Fields",
         title: "Learning to Write as a Professional Author",
+        lessons: "2 Lessons",
+        students: "263 Students",
+        price: "Free",
       }
     ],
     secondCardFeature: [
@@ -193,6 +196,10 @@ export const data = {
         userUri: "d0d504142acfde820eef2f11feea6253.jpeg",
         user: "Maggie Strickland",
         title: "Customer-centric Info-Tech Strategies",
+        lessons: "20 Lessons",
+        students: "69 Students",
+        price: "$40,00",
+
       }
     ],
     thirdCardFeature: [
@@ -201,6 +208,10 @@ export const data = {
         userUri: "d0d504142acfde820eef2f11feea6253.jpeg",
         user: "Maggie Strickland",
         title: "Open Programming Courses for Everyone: Python",
+        lessons: "24 Lessons",
+        students: "927 Students",
+        price: "$15,00",
+
       }
     ],
     fourthCardFeature: [
@@ -209,6 +220,10 @@ export const data = {
         userUri: "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         user: "Blanche Fields",
         title: "Academic Listening and note-taking",
+        lessons: "17 Lessons",
+        students: "66 Students",
+        price: "$10,00",
+
       }
     ],
     fifthCardFeature: [
@@ -217,6 +232,10 @@ export const data = {
         userUri: "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         user: "Blanche Fields",
         title: "Master jQuery in a Short Period of Time",
+        lessons: "Lessons",
+        students: "Students",
+        price: "$20,00",
+
       }
     ],
     sixthCardFeature: [
@@ -225,6 +244,11 @@ export const data = {
         userUri: "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         user: "Blanche Fields",
         title: "Introdution to Javascript for Beginners",
+        lessons: "6 Lessons",
+        students: "51 Students",
+        price: "Free",
+        price: "$08,00",
+        
       }
     ],
 
@@ -365,7 +389,7 @@ export const data = {
       ],
       secondCardGrid: [
         {
-          title: "course",
+          title: "masterclass",
           srcImg: "home-02-preview.jpg",
         }
       ],
@@ -383,7 +407,7 @@ export const data = {
       ],
       fifthCardGrid: [
         {
-          title: "course",
+          title: "masterclass",
           srcImg: "home-05-preview.jpg",
         }
       ],
@@ -419,7 +443,7 @@ export const data = {
       ],
       eleventhCardGrid: [
         {
-          title: "Coaching",
+          title: "masterclass",
           srcImg: "home-health-coaching-preview.jpg",
         }
       ],

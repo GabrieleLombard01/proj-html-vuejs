@@ -24,7 +24,7 @@ export default {
             <div class="card m-2">
                 <img :src="defaultPath + card.srcImg">
                 <div class="price">
-                    <h3>$20,00</h3>
+                    <h3>{{ card.price }}</h3>
                 </div>
                 <div class="d-flex align-items-center">
                     <div class="col-2 ps-4 pt-3">
@@ -37,10 +37,10 @@ export default {
                 <h3 class="card_title pt-2 ps-4">{{ card.title }}</h3>
                 <div class="data_zone">
                     <div class="col-4 ps-2">
-                        <span>20 Lesson</span>
+                        <span><i class="ps-3 pe-2 fa-regular fa-file"></i>{{ card.lessons }}</span>
                     </div>
                     <div class="col-4">
-                        <span>500 Students</span>
+                        <span><i class="pe-2 fa-regular fa-user"></i>{{ card.students }}</span>
                     </div>
                 </div>
             </div>
@@ -54,6 +54,7 @@ export default {
 <style scoped>
 span {
     color: grey;
+    font-size: 15px;
 }
 
 h3 {
@@ -85,6 +86,11 @@ h3 {
     margin: auto;
     border-radius: 8px;
     position: relative;
+    filter: blur(1px);
+}
+
+.card:hover img {
+    filter: blur(0px);
 }
 
 .col-2 img {
@@ -102,5 +108,11 @@ h3 {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 20px 1px;
+    transition: 0.6s;
 }
 </style>

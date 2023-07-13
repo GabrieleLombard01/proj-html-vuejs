@@ -54,6 +54,8 @@ h3 {
     width: 100%;
     background-color: #e9e6e3;
     padding-top: 50px;
+    background-image: url(../assets/img/wave.svg);
+    background-size: cover;
 }
 
 .text_jumbo {

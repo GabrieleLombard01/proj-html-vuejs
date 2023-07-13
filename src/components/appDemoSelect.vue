@@ -27,6 +27,9 @@ export default {
         <button class="d-block p-2 pe-3" @click="handleClick">
             <i class="fa-solid fa-ruler-combined fa-lg"></i>
         </button>
+        <div class="tooltip" v-if="showTooltip">Select Demo</div>
+
+
         <button class="d-block p-2">
             <a href="https://thememove.ticksy.com/">
                 <i class="fa-regular fa-futbol fa-lg"></i>
@@ -81,6 +84,15 @@ export default {
     width: 40px;
     background-color: white;
     color: #111111;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    left: -80px;
+    top: 0;
 }
 
 /* Pseudo-classes: */

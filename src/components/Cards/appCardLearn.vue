@@ -23,7 +23,8 @@ export default {
                 <img :src="defaultPath + card.srcImg">
                 <h6 class="pt-4">{{ card.title }}</h6>
                 <span class="pt-3">{{ card.descr }}</span>
-                <button class="small_btn mt-3 mb-3 w-50 mx-auto">Start Now</button>
+                <button class="small_btn mt-3 mb-3 w-50 mx-auto">Start Now<i
+                        class="ps-2 fa-solid fa-arrow-right fa-lg"></i></button>
             </div>
         </div>
     </div>

@@ -15,17 +15,27 @@ export default {
 
 <template>
     <section>
-        <div class="margin_contents pt-5 mt-5 pb-5 mb-5">
+        <div class="margin_contents pt-5 mt-5 pb-5">
             <appTitle class="text-center" :title="titleThirdSection" />
             <appCardFeature />
         </div>
     </section>
+    <div class="bg_curv">
+    </div>
 </template>
 
 <style scoped>
 section {
+    background-image: linear-gradient(to bottom, white, #f6f6f6, #ececec);
     background-color: #f5f5f5;
     width: 100%;
     min-height: 80vh;
+}
+
+.bg_curv {
+    height: 100px;
+    width: 100%;
+    background-image: url(../../assets/img/curved.png);
+    background-size: cover;
 }
 </style>
